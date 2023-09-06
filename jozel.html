@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="container">
+         <p id="question>"> a ako?</p>
+         <button class="btn" id="yes"> Yes</button>
+         <button class="btn" id="hinde"> hinde</button>
+    </div>
+    </div>
+</body>
+<script>
+    const noBtn = document.getElementByID('hinde');
+    const yesBtn = document.getElementByID('yes');
+    const ques = document.getElementByID('question');
+    noBtn.addeventlistener("click",()=>({
+        let rand = Math.floor(Math.random() * (500 - 100) +1);
+        let rand2 = Math.floor(Math.random() * (300 - 100) +1);
+        noBtn.style.transform = "translate("+rand+"px,"+rand2+"px)";
+    });
+    yesBtn.addeventlistener("click",()=>{
+        ques.innerHTML =" I LOVE YOU TOO"
+    })
+
+</script>
+</html>

@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    padding:0;
+    line-height:26px;
+    font-family: 'Zilla Slab', serif;
+}
+a {
+    text-decoration:none;
+}
+div.content{
+    padding:0 20px;
+}
+div.content-wrapper{
+    margin:auto;
+    padding-top:50px;
+    padding-bottom:20px;
+    width:1000px;
+    border-bottom: 1px dotted #000;
+}
+div#about{
+
+}
+div#about table{
+    width:100%;
+    margin:auto;
+    vertical-align:top;
+
+}
+div#about table td,div#about table td{
+
+}
+div#about img{
+    width:200px;
+    margin-right:15px;
+}
+div#skills{
+
+}
+div#skills table{
+width:100%;
+margin:auto;
+vertical-align:top;
+border-collapse:collapse;
+}
+div#skills table td,div#skills table th{
+vertical-align:top;
+text-align:left;
+padding:5px 10px;
+}
+div#skills table tr:nth-child(even){
+    background-color:#f2f2f2;
+}
+div#contact{
+
+}
+div#contact ul.social{
+
+}
+div#contact ul.social li{
+    display-inline:block;
+}
+
+div#contactform{
+
+}
+div#contactform label{
+display:block;
+}
+input,textarea{
+    border:1px solid #eaeaea;
+    padding:4px 10px;
+    border-radius:2px;
+    line-height:30px;
+    width:300px;
+    font-family:Arial;
+    font-size:15px;
+
+}
+text-area{
+    height:120px;
+
+}
+input[type="checkbox"], input[type="submit"]{
+    width:auto;
+}
+div#about img{
+    width:200px;
+    margin-right:15px;
+}
+div.top{
+    width:100%;
+    height:200px;
+    background-color: wheat;
+    background-image:url("classical_guitar.jpg")
+
+}
+div.top h1{
+    width:100%;
+    height:200px;
+    line-height:200px;
+    text-align:center;
+    font-size:70px;
+    color:#222222;
+    margin:0;
+}
+div.menu{
+    width:100%;
+    background:#222222;
+    
+}
+div.menu ul {
+    width:1000px;
+    margin:auto;
+    list-style:none;
+   padding:0;
+   max-width:100%;
+   
+}
+div.menu ul li{
+    display:inline-block;
+}
+div.menu ul li a{
+    
+    display:inline-block;
+    padding:15px 30px 15px 30px;
+    color:#ffffff
+}
+div.menu ul li a:hover{
+    color:#222222;
+    background-color:#ffffff;
+}
+div.menu ul li a:hover,div.menu ul li a.current{
+    color:#222222;
+    background-color:#ffffff;
+}
+div.bottom{
+    background-color:#222222
+}
+div.bottom .copyright{
+    margin:auto;
+    width:1000px;
+    padding-top:20px;
+    padding-bottom:20px;
+    max-width:100%;
+    
+}
+div.bottom .copyright p{
+    text-align:center;
+    color:#ffffff;
+}

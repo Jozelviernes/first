@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+<p>Thank you for taking the time to help us improve the platform</p>
+
+</p>
+<div id="form">
+    <div class="input-element">
+        <label id="name">
+            Name
+        </label>
+        <input placeholder="Name" id="name" type="text" required/>
+    </div>
+    <div class="input-element">
+        <label id="email-label">
+            Email
+        </label>
+        <input  placeholder="email"id="email" type="email" required/>
+    </div>
+    <div class="input-element">
+        <label id="number-element">
+            Age
+        </label>
+        <input placeholder="age" id="age" min="5" max-"100" type="number" required/>
+    </div>
+    <div class="input-element">
+        <label id="select-label">
+            Which option best describes your current role?
+        </label>
+        <select id="dropdown">
+            <option>Student</option>
+            <option>full time Student</option>
+            <option>full time learner</option>
+            <option>teacher</option>
+        </select>
+    </div>
+    <div>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+  <div> <label><input type="radio" name="game"/> Definitely</label></div>
+   <label> <input type="radio" name="game"/> Maybe</label>
+    </div>
+    <div>
+        <label>What would you like to see improved? (Check all that apply)</label>
+  <div> <label><input  value="frontend" type="checkbox" name="ideas"/> Front-end Projects</label></div>
+   <div><label> <input value="backend" type="checkbox" name="ideas"/> back end Projects</label></div>
+  <div> <label> <input value="data" type="checkbox" name="ideas"/> Data Visualization</label></div>
+    </div>
+</div>
+<div class="input-element">
+    <label>Any comments or suggestions?</label>
+    <textarea type="text"> 
+        Enter your comment here...
+    </textarea>
+</div>
+<button type="submit" id="submit" > Submit</button>
+</form>
+
+    
+
+</form>
+</body>
+</html>

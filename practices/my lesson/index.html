@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lesson 2 - Basic CSS</title>
+		<link href="style.css" rel="stylesheet">
+		<style>
+			body {
+				padding-bottom: 300px;
+			}
+
+			h1 {
+				color: green;
+				text-align:center;
+				text-decoration:underline;				
+				text-transform: capitalize;
+			}
+			
+			p {
+				text-indent: 20px;
+				letter-spacing: 1px;
+				line-height: 26px;
+				word-spacing: 2px;
+				font-size: 24px;
+				font-family: arial;
+				font-style:italic;
+				font-weight: bold;
+			}
+			
+			div#bgsample {
+				background-color: #F5DEB3;
+				background-image: url(images/film.jpg);
+				background-repeat: no-repeat;
+				background-position: 0 0;
+				background-attachment: scroll;
+				background-size: 100% 100%;
+			}
+			
+			div.bordersample {
+				
+			}
+			
+			div p.dotted {
+				border: 4px dotted wheat;
+				border-radius: 2px;				
+			}
+			
+			p.dashed {
+				border-style: dashed;
+				border-width: 2px;
+				border-color: #ff0000;
+				border-radius: 2px;
+			}
+			
+			p.solid {
+				border-style: solid;
+				border-width: 3px;
+				border-color: blue;
+				border-radius: 5px;
+			}
+			
+			p.double {
+				border-style: double;
+				border-width: 5px;
+				border-color: orange;
+				border-radius: 2px;
+			}
+			
+			p.mixed {
+				border-style: double;
+				border-width: 5px;
+				border-color: orange;
+				border-radius: 2px;
+				border-top-style: solid;
+				border-bottom-style: dashed;
+				border-left-style: dotted;
+				border-right-style: double;
+			}
+			
+			p.outline {
+				border-style: solid;
+				border-width: 1px;
+				border-color: black;
+				border-radius: 2px;
+				outline-style: solid;
+				outline-color: green;
+				outline-width: 10px;
+			}
+			
+			p.margin {
+				border: 1px solid black;
+				margin-top: 10px;
+				margin-bottom: 20px;
+				margin-left: 15px;
+				margin-right: 15px;
+				/* margin: 90px 20px 40px 15px; */
+			}
+			
+			p.padding {
+				border: 1px solid wheat;
+				padding-top: 15px;
+				padding-bottom: 20px;
+				padding-left: 20px;
+				padding-right: 30px;
+				padding: 20px 15px 20px 15px;
+			}
+			
+			.widthandheight {
+				border: 1px solid blue;
+				width: 500px;
+				height: 500px;
+			}
+			
+			p.widthsample {
+				border: 1px solid black;
+				width: 100px;
+			}
+			
+			p.heightsample {
+				border: 1px solid red;
+				height: 50px;
+			}
+			
+			a {
+				color: blue;
+				font-size: 18px;
+				text-decoration: none;
+				font-style: normal;
+				word-spacing: 1px;
+			}
+			
+			a:hover {
+				color: orange;
+				text-decoration: underline;
+			}
+			
+			ul.one {
+				list-style-type: circle;
+				list-style-image: url(images/blue-check.png);
+				font-size:24px;
+				line-height: 50px;
+				
+				list-style-position: outside;
+			}
+			
+			ul.two {
+				list-style-type: square;
+				list-style-position: inside;
+				background: orange;
+			}
+			
+			ul.two li {
+				background: yellow;
+				border: 1px solid gray;
+			}
+			
+			ol.three {
+				list-style-type: upper-roman;
+				list-style-position: outside;
+				background: orange;
+			}
+			
+			ol.three li {
+				background: yellow;
+				border: 1px solid gray;
+			}
+			
+			ol.four {
+				list-style-type: upper-alpha;
+			}
+			
+			table {
+				border: 1px solid gray;
+				border-collapse: collapse;
+				width: 100%;
+			}
+			
+			th {
+				border-bottom: 1px solid gray;
+				background: wheat;
+				text-align: left;
+			}
+			
+			tr:nth-child(even) {
+				background: #eaeaea;
+			}
+			
+			.displaysample {
+				border: 1px solid gray;
+				display: inline;
+				visibility: hidden;
+				
+			}
+			
+			/*
+				border-style: groove
+				border-style: ridge
+				etc
+			*/
+		</style>
+	</head>
+	<body>
+		<!-- Background -->
+		<div id="bgsample">
+			<h1>background example</h1>
+			<h3>Of course I already know basic HTML</h3>
+			<p>This is a good paragraph in my css lesson to lighten my html web page.</p>
+		</div>
+		
+		<!-- Border -->
+		<div class="bordersample">
+			<h1>Border / Outline Example</h1>
+			<p class="dotted">Dotted</p>
+			<p class="dashed">Dashed</p>
+			<p class="solid">Solid</p>
+			<p class="double">Double</p>
+			<p class="mixed">Mixed</p>
+			<hr>
+			<p class="outline">Outline</p>
+		</div>
+		
+		<!-- Margin / Padding -->
+		<div class="bordersample">
+			<h1>Margin</h1>
+			<p class="margin">Im studying margin here</p>
+			
+			<h1>Padding</h1>
+			<p class="padding">Im studying padding here</p>
+		</div>
+		
+		<!-- Width / Height -->
+		<div class="widthandheight">
+			<h1>Width</h1>
+			<p class="widthsample">Im studying width here</p>
+			
+			<h1>Height</h1>
+			<p class="heightsample">Im studying height here</p>
+		</div>
+		
+		<!-- Width / Height -->
+		<div>
+			<h1>Link Sample</h1>
+			<p class="linksample">
+				Im studying link here<br>
+				<a href="#">this is a link</a>
+			</p>			
+		</div>
+		
+		<!-- List -->
+		<div>
+			<h1>List formatting</h1>
+			<ul class="one">
+				<li>item 1</li>
+				<li>item 2</li>
+				<li>item 3</li>
+			</ul>
+			<ul class="two">
+				<li>item 1</li>
+				<li>item 2</li>
+				<li>item 3</li>
+			</ul>
+			<ol class="three">
+				<li>item 1</li>
+				<li>item 2</li>
+				<li>item 3</li>
+			</ol>
+			<ol class="four">
+				<li>item 1</li>
+				<li>item 2</li>
+				<li>item 3</li>
+			</ol>
+		</div>
+		
+		<!-- Table -->
+		<div>
+			<h1>Table formatting</h1>
+			<table>
+				<tr>
+					<th>Heading Col 1</th>
+					<th>Heading Col 2</th>
+					<th>Heading Col 3</th>
+				</tr>
+				
+				<tr>
+					<td>Row 1 - Col 1</td>
+					<td>Row 1 - Col 2</td>
+					<td>Row 1 - Col 3</td>
+				</tr>
+				
+				<tr>
+					<td>Row 2 - Col 1</td>
+					<td>Row 2 - Col 2</td>
+					<td>Row 2 - Col 3</td>
+				</tr>
+				
+				<tr>
+					<td>Row 3 - Col 1</td>
+					<td>Row 3 - Col 2</td>
+					<td>Row 3 - Col 3</td>
+				</tr>
+				
+				<tr>
+					<td>Row 4 - Col 1</td>
+					<td>Row 4 - Col 2</td>
+					<td>Row 4 - Col 3</td>
+				</tr>
+			</table>
+		</div>
+		
+		<!-- Other formatting -->
+		<div>
+			<h1>Other Formatting</h1>
+			<p>before display</p>
+			<div class="displaysample">Display options</div>
+			<p>after display</p>
+		</div>
+	</body>
+</html>

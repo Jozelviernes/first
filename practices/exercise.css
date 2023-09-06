@@ -1,0 +1,104 @@
+/*.card{
+    display:inline-block;
+    width:200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+    margin-right:10px;
+    margin-top:20px;
+
+}
+.pic {
+    width:100%;
+}
+.info{
+    padding-left: 5px;
+}
+.mutual-friend{
+    margin-left:2px;
+  
+    width:23px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.name{
+    margin-top: 5px;
+    font-weight:bold;
+}
+p{
+    font-family: Arial;
+    margin:3px
+}
+.mutual{
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+    display:inline-block;
+    vertical-align: top;
+}
+button{
+    background-color: rgb(24, 119, 242);
+    border:none;
+    color:white;
+    border-radius: 3px;
+    margin:5px;
+padding-left:15px;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:15px;
+    font-size:15px;
+}
+*/
+.card{
+ 
+    width:200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+    margin-right:10px;
+    margin-top:20px;
+
+}
+.grid{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap:10px;
+}
+.pic {
+    width:100%;
+}
+.info{
+    padding-left: 5px;
+}
+.mutual-friend{
+    margin-left:2px;
+  
+    width:23px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.name{
+    margin-top: 5px;
+    font-weight:bold;
+}
+p{
+    font-family: Arial;
+    margin:3px
+}
+.mutual{
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+    display:inline-block;
+    vertical-align: top;
+}
+button{
+    background-color: rgb(24, 119, 242);
+    border:none;
+    color:white;
+    border-radius: 3px;
+    margin:5px;
+padding-left:15px;
+padding-top:5px;
+padding-bottom:5px;
+padding-right:15px;
+    font-size:15px;
+}

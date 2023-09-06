@@ -1,0 +1,33 @@
+.search{
+    height:50px;
+    width:700px;
+    background-color: black;
+    display:flex;
+
+    justify-content: space-between;
+align-items: center;
+}
+.home{
+    width:50px;
+    background-color: lightblue;
+    margin-left:10px;
+    font-size: 20px;
+    
+}
+
+.textbox{
+width:400px;
+height:30px;
+padding-left: 20px;
+}
+button{
+    background-color: rgb(120, 82, 178);
+    color:white;
+    margin-right:10px;
+    height:30px;
+    border-width: 1px;
+    border-color: white;
+border-style: solid;
+    
+    
+}
